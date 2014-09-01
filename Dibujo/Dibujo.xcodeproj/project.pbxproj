@@ -1,0 +1,489 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F8BF498B19B0AC9A00A17A60 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F8BF498A19B0AC9A00A17A60 /* Foundation.framework */; };
+		F8BF498D19B0AC9A00A17A60 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F8BF498C19B0AC9A00A17A60 /* CoreGraphics.framework */; };
+		F8BF498F19B0AC9A00A17A60 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F8BF498E19B0AC9A00A17A60 /* UIKit.framework */; };
+		F8BF499519B0AC9A00A17A60 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = F8BF499319B0AC9A00A17A60 /* InfoPlist.strings */; };
+		F8BF499719B0AC9A00A17A60 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F8BF499619B0AC9A00A17A60 /* main.m */; };
+		F8BF499B19B0AC9A00A17A60 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F8BF499A19B0AC9A00A17A60 /* AppDelegate.m */; };
+		F8BF499E19B0AC9A00A17A60 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F8BF499C19B0AC9A00A17A60 /* Main.storyboard */; };
+		F8BF49A119B0AC9A00A17A60 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F8BF49A019B0AC9A00A17A60 /* ViewController.m */; };
+		F8BF49A319B0AC9A00A17A60 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F8BF49A219B0AC9A00A17A60 /* Images.xcassets */; };
+		F8BF49AA19B0AC9A00A17A60 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F8BF49A919B0AC9A00A17A60 /* XCTest.framework */; };
+		F8BF49AB19B0AC9A00A17A60 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F8BF498A19B0AC9A00A17A60 /* Foundation.framework */; };
+		F8BF49AC19B0AC9A00A17A60 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F8BF498E19B0AC9A00A17A60 /* UIKit.framework */; };
+		F8BF49B419B0AC9A00A17A60 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = F8BF49B219B0AC9A00A17A60 /* InfoPlist.strings */; };
+		F8BF49B619B0AC9A00A17A60 /* DibujoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = F8BF49B519B0AC9A00A17A60 /* DibujoTests.m */; };
+		F8BF49C219B0B00600A17A60 /* UIColor+Random.m in Sources */ = {isa = PBXBuildFile; fileRef = F8BF49C119B0B00600A17A60 /* UIColor+Random.m */; };
+		F8BF49C519B0B1F700A17A60 /* PintorView.m in Sources */ = {isa = PBXBuildFile; fileRef = F8BF49C419B0B1F700A17A60 /* PintorView.m */; };
+		F8BF49C719B0CBD800A17A60 /* Apple.png in Resources */ = {isa = PBXBuildFile; fileRef = F8BF49C619B0CBD800A17A60 /* Apple.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F8BF49AD19B0AC9A00A17A60 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F8BF497F19B0AC9A00A17A60 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F8BF498619B0AC9A00A17A60;
+			remoteInfo = Dibujo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		F8BF498719B0AC9A00A17A60 /* Dibujo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Dibujo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F8BF498A19B0AC9A00A17A60 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		F8BF498C19B0AC9A00A17A60 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		F8BF498E19B0AC9A00A17A60 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		F8BF499219B0AC9A00A17A60 /* Dibujo-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Dibujo-Info.plist"; sourceTree = "<group>"; };
+		F8BF499419B0AC9A00A17A60 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		F8BF499619B0AC9A00A17A60 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		F8BF499819B0AC9A00A17A60 /* Dibujo-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Dibujo-Prefix.pch"; sourceTree = "<group>"; };
+		F8BF499919B0AC9A00A17A60 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		F8BF499A19B0AC9A00A17A60 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		F8BF499D19B0AC9A00A17A60 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F8BF499F19B0AC9A00A17A60 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		F8BF49A019B0AC9A00A17A60 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		F8BF49A219B0AC9A00A17A60 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		F8BF49A819B0AC9A00A17A60 /* DibujoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DibujoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F8BF49A919B0AC9A00A17A60 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		F8BF49B119B0AC9A00A17A60 /* DibujoTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "DibujoTests-Info.plist"; sourceTree = "<group>"; };
+		F8BF49B319B0AC9A00A17A60 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		F8BF49B519B0AC9A00A17A60 /* DibujoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DibujoTests.m; sourceTree = "<group>"; };
+		F8BF49BF19B0ADF000A17A60 /* Constants.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Constants.h; sourceTree = "<group>"; };
+		F8BF49C019B0B00600A17A60 /* UIColor+Random.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+Random.h"; sourceTree = "<group>"; };
+		F8BF49C119B0B00600A17A60 /* UIColor+Random.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+Random.m"; sourceTree = "<group>"; };
+		F8BF49C319B0B1F700A17A60 /* PintorView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PintorView.h; sourceTree = "<group>"; };
+		F8BF49C419B0B1F700A17A60 /* PintorView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PintorView.m; sourceTree = "<group>"; };
+		F8BF49C619B0CBD800A17A60 /* Apple.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Apple.png; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F8BF498419B0AC9A00A17A60 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F8BF498D19B0AC9A00A17A60 /* CoreGraphics.framework in Frameworks */,
+				F8BF498F19B0AC9A00A17A60 /* UIKit.framework in Frameworks */,
+				F8BF498B19B0AC9A00A17A60 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F8BF49A519B0AC9A00A17A60 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F8BF49AA19B0AC9A00A17A60 /* XCTest.framework in Frameworks */,
+				F8BF49AC19B0AC9A00A17A60 /* UIKit.framework in Frameworks */,
+				F8BF49AB19B0AC9A00A17A60 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F8BF497E19B0AC9A00A17A60 = {
+			isa = PBXGroup;
+			children = (
+				F8BF49C619B0CBD800A17A60 /* Apple.png */,
+				F8BF49C319B0B1F700A17A60 /* PintorView.h */,
+				F8BF49C419B0B1F700A17A60 /* PintorView.m */,
+				F8BF49C019B0B00600A17A60 /* UIColor+Random.h */,
+				F8BF49C119B0B00600A17A60 /* UIColor+Random.m */,
+				F8BF49BF19B0ADF000A17A60 /* Constants.h */,
+				F8BF499019B0AC9A00A17A60 /* Dibujo */,
+				F8BF49AF19B0AC9A00A17A60 /* DibujoTests */,
+				F8BF498919B0AC9A00A17A60 /* Frameworks */,
+				F8BF498819B0AC9A00A17A60 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F8BF498819B0AC9A00A17A60 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F8BF498719B0AC9A00A17A60 /* Dibujo.app */,
+				F8BF49A819B0AC9A00A17A60 /* DibujoTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F8BF498919B0AC9A00A17A60 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F8BF498A19B0AC9A00A17A60 /* Foundation.framework */,
+				F8BF498C19B0AC9A00A17A60 /* CoreGraphics.framework */,
+				F8BF498E19B0AC9A00A17A60 /* UIKit.framework */,
+				F8BF49A919B0AC9A00A17A60 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F8BF499019B0AC9A00A17A60 /* Dibujo */ = {
+			isa = PBXGroup;
+			children = (
+				F8BF499919B0AC9A00A17A60 /* AppDelegate.h */,
+				F8BF499A19B0AC9A00A17A60 /* AppDelegate.m */,
+				F8BF499C19B0AC9A00A17A60 /* Main.storyboard */,
+				F8BF499F19B0AC9A00A17A60 /* ViewController.h */,
+				F8BF49A019B0AC9A00A17A60 /* ViewController.m */,
+				F8BF49A219B0AC9A00A17A60 /* Images.xcassets */,
+				F8BF499119B0AC9A00A17A60 /* Supporting Files */,
+			);
+			path = Dibujo;
+			sourceTree = "<group>";
+		};
+		F8BF499119B0AC9A00A17A60 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				F8BF499219B0AC9A00A17A60 /* Dibujo-Info.plist */,
+				F8BF499319B0AC9A00A17A60 /* InfoPlist.strings */,
+				F8BF499619B0AC9A00A17A60 /* main.m */,
+				F8BF499819B0AC9A00A17A60 /* Dibujo-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		F8BF49AF19B0AC9A00A17A60 /* DibujoTests */ = {
+			isa = PBXGroup;
+			children = (
+				F8BF49B519B0AC9A00A17A60 /* DibujoTests.m */,
+				F8BF49B019B0AC9A00A17A60 /* Supporting Files */,
+			);
+			path = DibujoTests;
+			sourceTree = "<group>";
+		};
+		F8BF49B019B0AC9A00A17A60 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				F8BF49B119B0AC9A00A17A60 /* DibujoTests-Info.plist */,
+				F8BF49B219B0AC9A00A17A60 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F8BF498619B0AC9A00A17A60 /* Dibujo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F8BF49B919B0AC9A00A17A60 /* Build configuration list for PBXNativeTarget "Dibujo" */;
+			buildPhases = (
+				F8BF498319B0AC9A00A17A60 /* Sources */,
+				F8BF498419B0AC9A00A17A60 /* Frameworks */,
+				F8BF498519B0AC9A00A17A60 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Dibujo;
+			productName = Dibujo;
+			productReference = F8BF498719B0AC9A00A17A60 /* Dibujo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F8BF49A719B0AC9A00A17A60 /* DibujoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F8BF49BC19B0AC9A00A17A60 /* Build configuration list for PBXNativeTarget "DibujoTests" */;
+			buildPhases = (
+				F8BF49A419B0AC9A00A17A60 /* Sources */,
+				F8BF49A519B0AC9A00A17A60 /* Frameworks */,
+				F8BF49A619B0AC9A00A17A60 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F8BF49AE19B0AC9A00A17A60 /* PBXTargetDependency */,
+			);
+			name = DibujoTests;
+			productName = DibujoTests;
+			productReference = F8BF49A819B0AC9A00A17A60 /* DibujoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F8BF497F19B0AC9A00A17A60 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = Profesor;
+				TargetAttributes = {
+					F8BF49A719B0AC9A00A17A60 = {
+						TestTargetID = F8BF498619B0AC9A00A17A60;
+					};
+				};
+			};
+			buildConfigurationList = F8BF498219B0AC9A00A17A60 /* Build configuration list for PBXProject "Dibujo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F8BF497E19B0AC9A00A17A60;
+			productRefGroup = F8BF498819B0AC9A00A17A60 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F8BF498619B0AC9A00A17A60 /* Dibujo */,
+				F8BF49A719B0AC9A00A17A60 /* DibujoTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F8BF498519B0AC9A00A17A60 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F8BF49A319B0AC9A00A17A60 /* Images.xcassets in Resources */,
+				F8BF499519B0AC9A00A17A60 /* InfoPlist.strings in Resources */,
+				F8BF49C719B0CBD800A17A60 /* Apple.png in Resources */,
+				F8BF499E19B0AC9A00A17A60 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F8BF49A619B0AC9A00A17A60 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F8BF49B419B0AC9A00A17A60 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F8BF498319B0AC9A00A17A60 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F8BF49C219B0B00600A17A60 /* UIColor+Random.m in Sources */,
+				F8BF49C519B0B1F700A17A60 /* PintorView.m in Sources */,
+				F8BF49A119B0AC9A00A17A60 /* ViewController.m in Sources */,
+				F8BF499B19B0AC9A00A17A60 /* AppDelegate.m in Sources */,
+				F8BF499719B0AC9A00A17A60 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F8BF49A419B0AC9A00A17A60 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F8BF49B619B0AC9A00A17A60 /* DibujoTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F8BF49AE19B0AC9A00A17A60 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F8BF498619B0AC9A00A17A60 /* Dibujo */;
+			targetProxy = F8BF49AD19B0AC9A00A17A60 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		F8BF499319B0AC9A00A17A60 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F8BF499419B0AC9A00A17A60 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		F8BF499C19B0AC9A00A17A60 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F8BF499D19B0AC9A00A17A60 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		F8BF49B219B0AC9A00A17A60 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F8BF49B319B0AC9A00A17A60 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F8BF49B719B0AC9A00A17A60 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		F8BF49B819B0AC9A00A17A60 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F8BF49BA19B0AC9A00A17A60 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Dibujo/Dibujo-Prefix.pch";
+				INFOPLIST_FILE = "Dibujo/Dibujo-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		F8BF49BB19B0AC9A00A17A60 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Dibujo/Dibujo-Prefix.pch";
+				INFOPLIST_FILE = "Dibujo/Dibujo-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		F8BF49BD19B0AC9A00A17A60 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Dibujo.app/Dibujo";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Dibujo/Dibujo-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "DibujoTests/DibujoTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		F8BF49BE19B0AC9A00A17A60 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Dibujo.app/Dibujo";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Dibujo/Dibujo-Prefix.pch";
+				INFOPLIST_FILE = "DibujoTests/DibujoTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F8BF498219B0AC9A00A17A60 /* Build configuration list for PBXProject "Dibujo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F8BF49B719B0AC9A00A17A60 /* Debug */,
+				F8BF49B819B0AC9A00A17A60 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F8BF49B919B0AC9A00A17A60 /* Build configuration list for PBXNativeTarget "Dibujo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F8BF49BA19B0AC9A00A17A60 /* Debug */,
+				F8BF49BB19B0AC9A00A17A60 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		F8BF49BC19B0AC9A00A17A60 /* Build configuration list for PBXNativeTarget "DibujoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F8BF49BD19B0AC9A00A17A60 /* Debug */,
+				F8BF49BE19B0AC9A00A17A60 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F8BF497F19B0AC9A00A17A60 /* Project object */;
+}

@@ -1,0 +1,479 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		AD42574519A78E2A008EBD11 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AD42574419A78E2A008EBD11 /* Foundation.framework */; };
+		AD42574719A78E2A008EBD11 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AD42574619A78E2A008EBD11 /* CoreGraphics.framework */; };
+		AD42574919A78E2A008EBD11 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AD42574819A78E2A008EBD11 /* UIKit.framework */; };
+		AD42574F19A78E2A008EBD11 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = AD42574D19A78E2A008EBD11 /* InfoPlist.strings */; };
+		AD42575119A78E2A008EBD11 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = AD42575019A78E2A008EBD11 /* main.m */; };
+		AD42575519A78E2A008EBD11 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = AD42575419A78E2A008EBD11 /* AppDelegate.m */; };
+		AD42575819A78E2A008EBD11 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AD42575619A78E2A008EBD11 /* Main.storyboard */; };
+		AD42575B19A78E2A008EBD11 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AD42575A19A78E2A008EBD11 /* ViewController.m */; };
+		AD42575D19A78E2A008EBD11 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AD42575C19A78E2A008EBD11 /* Images.xcassets */; };
+		AD42576419A78E2A008EBD11 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AD42576319A78E2A008EBD11 /* XCTest.framework */; };
+		AD42576519A78E2A008EBD11 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AD42574419A78E2A008EBD11 /* Foundation.framework */; };
+		AD42576619A78E2A008EBD11 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AD42574819A78E2A008EBD11 /* UIKit.framework */; };
+		AD42576E19A78E2A008EBD11 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = AD42576C19A78E2A008EBD11 /* InfoPlist.strings */; };
+		AD42577019A78E2A008EBD11 /* VideoyAlertasTests.m in Sources */ = {isa = PBXBuildFile; fileRef = AD42576F19A78E2A008EBD11 /* VideoyAlertasTests.m */; };
+		AD42577A19A79879008EBD11 /* video.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = AD42577919A79879008EBD11 /* video.mp4 */; };
+		AD42577C19A798A2008EBD11 /* MediaPlayer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AD42577B19A798A2008EBD11 /* MediaPlayer.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		AD42576719A78E2A008EBD11 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AD42573919A78E2A008EBD11 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AD42574019A78E2A008EBD11;
+			remoteInfo = VideoyAlertas;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		AD42574119A78E2A008EBD11 /* VideoyAlertas.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = VideoyAlertas.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		AD42574419A78E2A008EBD11 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		AD42574619A78E2A008EBD11 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		AD42574819A78E2A008EBD11 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		AD42574C19A78E2A008EBD11 /* VideoyAlertas-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "VideoyAlertas-Info.plist"; sourceTree = "<group>"; };
+		AD42574E19A78E2A008EBD11 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		AD42575019A78E2A008EBD11 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		AD42575219A78E2A008EBD11 /* VideoyAlertas-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "VideoyAlertas-Prefix.pch"; sourceTree = "<group>"; };
+		AD42575319A78E2A008EBD11 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		AD42575419A78E2A008EBD11 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		AD42575719A78E2A008EBD11 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		AD42575919A78E2A008EBD11 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		AD42575A19A78E2A008EBD11 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		AD42575C19A78E2A008EBD11 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		AD42576219A78E2A008EBD11 /* VideoyAlertasTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = VideoyAlertasTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		AD42576319A78E2A008EBD11 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		AD42576B19A78E2A008EBD11 /* VideoyAlertasTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "VideoyAlertasTests-Info.plist"; sourceTree = "<group>"; };
+		AD42576D19A78E2A008EBD11 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		AD42576F19A78E2A008EBD11 /* VideoyAlertasTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = VideoyAlertasTests.m; sourceTree = "<group>"; };
+		AD42577919A79879008EBD11 /* video.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = video.mp4; sourceTree = "<group>"; };
+		AD42577B19A798A2008EBD11 /* MediaPlayer.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MediaPlayer.framework; path = System/Library/Frameworks/MediaPlayer.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		AD42573E19A78E2A008EBD11 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AD42577C19A798A2008EBD11 /* MediaPlayer.framework in Frameworks */,
+				AD42574719A78E2A008EBD11 /* CoreGraphics.framework in Frameworks */,
+				AD42574919A78E2A008EBD11 /* UIKit.framework in Frameworks */,
+				AD42574519A78E2A008EBD11 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AD42575F19A78E2A008EBD11 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AD42576419A78E2A008EBD11 /* XCTest.framework in Frameworks */,
+				AD42576619A78E2A008EBD11 /* UIKit.framework in Frameworks */,
+				AD42576519A78E2A008EBD11 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		AD42573819A78E2A008EBD11 = {
+			isa = PBXGroup;
+			children = (
+				AD42577919A79879008EBD11 /* video.mp4 */,
+				AD42574A19A78E2A008EBD11 /* VideoyAlertas */,
+				AD42576919A78E2A008EBD11 /* VideoyAlertasTests */,
+				AD42574319A78E2A008EBD11 /* Frameworks */,
+				AD42574219A78E2A008EBD11 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		AD42574219A78E2A008EBD11 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AD42574119A78E2A008EBD11 /* VideoyAlertas.app */,
+				AD42576219A78E2A008EBD11 /* VideoyAlertasTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AD42574319A78E2A008EBD11 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				AD42577B19A798A2008EBD11 /* MediaPlayer.framework */,
+				AD42574419A78E2A008EBD11 /* Foundation.framework */,
+				AD42574619A78E2A008EBD11 /* CoreGraphics.framework */,
+				AD42574819A78E2A008EBD11 /* UIKit.framework */,
+				AD42576319A78E2A008EBD11 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		AD42574A19A78E2A008EBD11 /* VideoyAlertas */ = {
+			isa = PBXGroup;
+			children = (
+				AD42575319A78E2A008EBD11 /* AppDelegate.h */,
+				AD42575419A78E2A008EBD11 /* AppDelegate.m */,
+				AD42575619A78E2A008EBD11 /* Main.storyboard */,
+				AD42575919A78E2A008EBD11 /* ViewController.h */,
+				AD42575A19A78E2A008EBD11 /* ViewController.m */,
+				AD42575C19A78E2A008EBD11 /* Images.xcassets */,
+				AD42574B19A78E2A008EBD11 /* Supporting Files */,
+			);
+			path = VideoyAlertas;
+			sourceTree = "<group>";
+		};
+		AD42574B19A78E2A008EBD11 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				AD42574C19A78E2A008EBD11 /* VideoyAlertas-Info.plist */,
+				AD42574D19A78E2A008EBD11 /* InfoPlist.strings */,
+				AD42575019A78E2A008EBD11 /* main.m */,
+				AD42575219A78E2A008EBD11 /* VideoyAlertas-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		AD42576919A78E2A008EBD11 /* VideoyAlertasTests */ = {
+			isa = PBXGroup;
+			children = (
+				AD42576F19A78E2A008EBD11 /* VideoyAlertasTests.m */,
+				AD42576A19A78E2A008EBD11 /* Supporting Files */,
+			);
+			path = VideoyAlertasTests;
+			sourceTree = "<group>";
+		};
+		AD42576A19A78E2A008EBD11 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				AD42576B19A78E2A008EBD11 /* VideoyAlertasTests-Info.plist */,
+				AD42576C19A78E2A008EBD11 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		AD42574019A78E2A008EBD11 /* VideoyAlertas */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AD42577319A78E2A008EBD11 /* Build configuration list for PBXNativeTarget "VideoyAlertas" */;
+			buildPhases = (
+				AD42573D19A78E2A008EBD11 /* Sources */,
+				AD42573E19A78E2A008EBD11 /* Frameworks */,
+				AD42573F19A78E2A008EBD11 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = VideoyAlertas;
+			productName = VideoyAlertas;
+			productReference = AD42574119A78E2A008EBD11 /* VideoyAlertas.app */;
+			productType = "com.apple.product-type.application";
+		};
+		AD42576119A78E2A008EBD11 /* VideoyAlertasTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AD42577619A78E2A008EBD11 /* Build configuration list for PBXNativeTarget "VideoyAlertasTests" */;
+			buildPhases = (
+				AD42575E19A78E2A008EBD11 /* Sources */,
+				AD42575F19A78E2A008EBD11 /* Frameworks */,
+				AD42576019A78E2A008EBD11 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AD42576819A78E2A008EBD11 /* PBXTargetDependency */,
+			);
+			name = VideoyAlertasTests;
+			productName = VideoyAlertasTests;
+			productReference = AD42576219A78E2A008EBD11 /* VideoyAlertasTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AD42573919A78E2A008EBD11 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = "Giovanny Suarez";
+				TargetAttributes = {
+					AD42576119A78E2A008EBD11 = {
+						TestTargetID = AD42574019A78E2A008EBD11;
+					};
+				};
+			};
+			buildConfigurationList = AD42573C19A78E2A008EBD11 /* Build configuration list for PBXProject "VideoyAlertas" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = AD42573819A78E2A008EBD11;
+			productRefGroup = AD42574219A78E2A008EBD11 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AD42574019A78E2A008EBD11 /* VideoyAlertas */,
+				AD42576119A78E2A008EBD11 /* VideoyAlertasTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		AD42573F19A78E2A008EBD11 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AD42575D19A78E2A008EBD11 /* Images.xcassets in Resources */,
+				AD42574F19A78E2A008EBD11 /* InfoPlist.strings in Resources */,
+				AD42575819A78E2A008EBD11 /* Main.storyboard in Resources */,
+				AD42577A19A79879008EBD11 /* video.mp4 in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AD42576019A78E2A008EBD11 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AD42576E19A78E2A008EBD11 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AD42573D19A78E2A008EBD11 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AD42575B19A78E2A008EBD11 /* ViewController.m in Sources */,
+				AD42575519A78E2A008EBD11 /* AppDelegate.m in Sources */,
+				AD42575119A78E2A008EBD11 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AD42575E19A78E2A008EBD11 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AD42577019A78E2A008EBD11 /* VideoyAlertasTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		AD42576819A78E2A008EBD11 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AD42574019A78E2A008EBD11 /* VideoyAlertas */;
+			targetProxy = AD42576719A78E2A008EBD11 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		AD42574D19A78E2A008EBD11 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AD42574E19A78E2A008EBD11 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		AD42575619A78E2A008EBD11 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AD42575719A78E2A008EBD11 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		AD42576C19A78E2A008EBD11 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AD42576D19A78E2A008EBD11 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		AD42577119A78E2A008EBD11 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		AD42577219A78E2A008EBD11 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		AD42577419A78E2A008EBD11 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "VideoyAlertas/VideoyAlertas-Prefix.pch";
+				INFOPLIST_FILE = "VideoyAlertas/VideoyAlertas-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		AD42577519A78E2A008EBD11 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "VideoyAlertas/VideoyAlertas-Prefix.pch";
+				INFOPLIST_FILE = "VideoyAlertas/VideoyAlertas-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		AD42577719A78E2A008EBD11 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/VideoyAlertas.app/VideoyAlertas";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "VideoyAlertas/VideoyAlertas-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "VideoyAlertasTests/VideoyAlertasTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		AD42577819A78E2A008EBD11 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/VideoyAlertas.app/VideoyAlertas";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "VideoyAlertas/VideoyAlertas-Prefix.pch";
+				INFOPLIST_FILE = "VideoyAlertasTests/VideoyAlertasTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		AD42573C19A78E2A008EBD11 /* Build configuration list for PBXProject "VideoyAlertas" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AD42577119A78E2A008EBD11 /* Debug */,
+				AD42577219A78E2A008EBD11 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AD42577319A78E2A008EBD11 /* Build configuration list for PBXNativeTarget "VideoyAlertas" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AD42577419A78E2A008EBD11 /* Debug */,
+				AD42577519A78E2A008EBD11 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		AD42577619A78E2A008EBD11 /* Build configuration list for PBXNativeTarget "VideoyAlertasTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AD42577719A78E2A008EBD11 /* Debug */,
+				AD42577819A78E2A008EBD11 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = AD42573919A78E2A008EBD11 /* Project object */;
+}

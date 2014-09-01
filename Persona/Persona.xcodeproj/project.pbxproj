@@ -1,0 +1,477 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		ADEA5E78199B90AE0081EADD /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ADEA5E77199B90AE0081EADD /* Foundation.framework */; };
+		ADEA5E7A199B90AE0081EADD /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ADEA5E79199B90AE0081EADD /* CoreGraphics.framework */; };
+		ADEA5E7C199B90AE0081EADD /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ADEA5E7B199B90AE0081EADD /* UIKit.framework */; };
+		ADEA5E82199B90AE0081EADD /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = ADEA5E80199B90AE0081EADD /* InfoPlist.strings */; };
+		ADEA5E84199B90AE0081EADD /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = ADEA5E83199B90AE0081EADD /* main.m */; };
+		ADEA5E88199B90AE0081EADD /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = ADEA5E87199B90AE0081EADD /* AppDelegate.m */; };
+		ADEA5E8B199B90AE0081EADD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ADEA5E89199B90AE0081EADD /* Main.storyboard */; };
+		ADEA5E8E199B90AE0081EADD /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = ADEA5E8D199B90AE0081EADD /* ViewController.m */; };
+		ADEA5E90199B90AE0081EADD /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ADEA5E8F199B90AE0081EADD /* Images.xcassets */; };
+		ADEA5E97199B90AE0081EADD /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ADEA5E96199B90AE0081EADD /* XCTest.framework */; };
+		ADEA5E98199B90AE0081EADD /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ADEA5E77199B90AE0081EADD /* Foundation.framework */; };
+		ADEA5E99199B90AE0081EADD /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ADEA5E7B199B90AE0081EADD /* UIKit.framework */; };
+		ADEA5EA1199B90AE0081EADD /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = ADEA5E9F199B90AE0081EADD /* InfoPlist.strings */; };
+		ADEA5EA3199B90AE0081EADD /* PersonaTests.m in Sources */ = {isa = PBXBuildFile; fileRef = ADEA5EA2199B90AE0081EADD /* PersonaTests.m */; };
+		ADEA5EAE199B99480081EADD /* Person.m in Sources */ = {isa = PBXBuildFile; fileRef = ADEA5EAD199B99480081EADD /* Person.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		ADEA5E9A199B90AE0081EADD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = ADEA5E6C199B90AE0081EADD /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = ADEA5E73199B90AE0081EADD;
+			remoteInfo = Persona;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		ADEA5E74199B90AE0081EADD /* Persona.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Persona.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		ADEA5E77199B90AE0081EADD /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		ADEA5E79199B90AE0081EADD /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		ADEA5E7B199B90AE0081EADD /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		ADEA5E7F199B90AE0081EADD /* Persona-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Persona-Info.plist"; sourceTree = "<group>"; };
+		ADEA5E81199B90AE0081EADD /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		ADEA5E83199B90AE0081EADD /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		ADEA5E85199B90AE0081EADD /* Persona-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Persona-Prefix.pch"; sourceTree = "<group>"; };
+		ADEA5E86199B90AE0081EADD /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		ADEA5E87199B90AE0081EADD /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		ADEA5E8A199B90AE0081EADD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		ADEA5E8C199B90AE0081EADD /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		ADEA5E8D199B90AE0081EADD /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		ADEA5E8F199B90AE0081EADD /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		ADEA5E95199B90AE0081EADD /* PersonaTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PersonaTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		ADEA5E96199B90AE0081EADD /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		ADEA5E9E199B90AE0081EADD /* PersonaTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "PersonaTests-Info.plist"; sourceTree = "<group>"; };
+		ADEA5EA0199B90AE0081EADD /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		ADEA5EA2199B90AE0081EADD /* PersonaTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PersonaTests.m; sourceTree = "<group>"; };
+		ADEA5EAC199B99480081EADD /* Person.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Person.h; sourceTree = "<group>"; };
+		ADEA5EAD199B99480081EADD /* Person.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Person.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		ADEA5E71199B90AE0081EADD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ADEA5E7A199B90AE0081EADD /* CoreGraphics.framework in Frameworks */,
+				ADEA5E7C199B90AE0081EADD /* UIKit.framework in Frameworks */,
+				ADEA5E78199B90AE0081EADD /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ADEA5E92199B90AE0081EADD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ADEA5E97199B90AE0081EADD /* XCTest.framework in Frameworks */,
+				ADEA5E99199B90AE0081EADD /* UIKit.framework in Frameworks */,
+				ADEA5E98199B90AE0081EADD /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		ADEA5E6B199B90AE0081EADD = {
+			isa = PBXGroup;
+			children = (
+				ADEA5EAC199B99480081EADD /* Person.h */,
+				ADEA5EAD199B99480081EADD /* Person.m */,
+				ADEA5E7D199B90AE0081EADD /* Persona */,
+				ADEA5E9C199B90AE0081EADD /* PersonaTests */,
+				ADEA5E76199B90AE0081EADD /* Frameworks */,
+				ADEA5E75199B90AE0081EADD /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		ADEA5E75199B90AE0081EADD /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				ADEA5E74199B90AE0081EADD /* Persona.app */,
+				ADEA5E95199B90AE0081EADD /* PersonaTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		ADEA5E76199B90AE0081EADD /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				ADEA5E77199B90AE0081EADD /* Foundation.framework */,
+				ADEA5E79199B90AE0081EADD /* CoreGraphics.framework */,
+				ADEA5E7B199B90AE0081EADD /* UIKit.framework */,
+				ADEA5E96199B90AE0081EADD /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		ADEA5E7D199B90AE0081EADD /* Persona */ = {
+			isa = PBXGroup;
+			children = (
+				ADEA5E86199B90AE0081EADD /* AppDelegate.h */,
+				ADEA5E87199B90AE0081EADD /* AppDelegate.m */,
+				ADEA5E89199B90AE0081EADD /* Main.storyboard */,
+				ADEA5E8C199B90AE0081EADD /* ViewController.h */,
+				ADEA5E8D199B90AE0081EADD /* ViewController.m */,
+				ADEA5E8F199B90AE0081EADD /* Images.xcassets */,
+				ADEA5E7E199B90AE0081EADD /* Supporting Files */,
+			);
+			path = Persona;
+			sourceTree = "<group>";
+		};
+		ADEA5E7E199B90AE0081EADD /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				ADEA5E7F199B90AE0081EADD /* Persona-Info.plist */,
+				ADEA5E80199B90AE0081EADD /* InfoPlist.strings */,
+				ADEA5E83199B90AE0081EADD /* main.m */,
+				ADEA5E85199B90AE0081EADD /* Persona-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		ADEA5E9C199B90AE0081EADD /* PersonaTests */ = {
+			isa = PBXGroup;
+			children = (
+				ADEA5EA2199B90AE0081EADD /* PersonaTests.m */,
+				ADEA5E9D199B90AE0081EADD /* Supporting Files */,
+			);
+			path = PersonaTests;
+			sourceTree = "<group>";
+		};
+		ADEA5E9D199B90AE0081EADD /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				ADEA5E9E199B90AE0081EADD /* PersonaTests-Info.plist */,
+				ADEA5E9F199B90AE0081EADD /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		ADEA5E73199B90AE0081EADD /* Persona */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ADEA5EA6199B90AE0081EADD /* Build configuration list for PBXNativeTarget "Persona" */;
+			buildPhases = (
+				ADEA5E70199B90AE0081EADD /* Sources */,
+				ADEA5E71199B90AE0081EADD /* Frameworks */,
+				ADEA5E72199B90AE0081EADD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Persona;
+			productName = Persona;
+			productReference = ADEA5E74199B90AE0081EADD /* Persona.app */;
+			productType = "com.apple.product-type.application";
+		};
+		ADEA5E94199B90AE0081EADD /* PersonaTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ADEA5EA9199B90AE0081EADD /* Build configuration list for PBXNativeTarget "PersonaTests" */;
+			buildPhases = (
+				ADEA5E91199B90AE0081EADD /* Sources */,
+				ADEA5E92199B90AE0081EADD /* Frameworks */,
+				ADEA5E93199B90AE0081EADD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				ADEA5E9B199B90AE0081EADD /* PBXTargetDependency */,
+			);
+			name = PersonaTests;
+			productName = PersonaTests;
+			productReference = ADEA5E95199B90AE0081EADD /* PersonaTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		ADEA5E6C199B90AE0081EADD /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = "Giovanny Suarez";
+				TargetAttributes = {
+					ADEA5E94199B90AE0081EADD = {
+						TestTargetID = ADEA5E73199B90AE0081EADD;
+					};
+				};
+			};
+			buildConfigurationList = ADEA5E6F199B90AE0081EADD /* Build configuration list for PBXProject "Persona" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = ADEA5E6B199B90AE0081EADD;
+			productRefGroup = ADEA5E75199B90AE0081EADD /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				ADEA5E73199B90AE0081EADD /* Persona */,
+				ADEA5E94199B90AE0081EADD /* PersonaTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		ADEA5E72199B90AE0081EADD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ADEA5E90199B90AE0081EADD /* Images.xcassets in Resources */,
+				ADEA5E82199B90AE0081EADD /* InfoPlist.strings in Resources */,
+				ADEA5E8B199B90AE0081EADD /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ADEA5E93199B90AE0081EADD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ADEA5EA1199B90AE0081EADD /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		ADEA5E70199B90AE0081EADD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ADEA5E8E199B90AE0081EADD /* ViewController.m in Sources */,
+				ADEA5E88199B90AE0081EADD /* AppDelegate.m in Sources */,
+				ADEA5EAE199B99480081EADD /* Person.m in Sources */,
+				ADEA5E84199B90AE0081EADD /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ADEA5E91199B90AE0081EADD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ADEA5EA3199B90AE0081EADD /* PersonaTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		ADEA5E9B199B90AE0081EADD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = ADEA5E73199B90AE0081EADD /* Persona */;
+			targetProxy = ADEA5E9A199B90AE0081EADD /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		ADEA5E80199B90AE0081EADD /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				ADEA5E81199B90AE0081EADD /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		ADEA5E89199B90AE0081EADD /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				ADEA5E8A199B90AE0081EADD /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		ADEA5E9F199B90AE0081EADD /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				ADEA5EA0199B90AE0081EADD /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		ADEA5EA4199B90AE0081EADD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		ADEA5EA5199B90AE0081EADD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		ADEA5EA7199B90AE0081EADD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Persona/Persona-Prefix.pch";
+				INFOPLIST_FILE = "Persona/Persona-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		ADEA5EA8199B90AE0081EADD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Persona/Persona-Prefix.pch";
+				INFOPLIST_FILE = "Persona/Persona-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		ADEA5EAA199B90AE0081EADD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Persona.app/Persona";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Persona/Persona-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "PersonaTests/PersonaTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		ADEA5EAB199B90AE0081EADD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Persona.app/Persona";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Persona/Persona-Prefix.pch";
+				INFOPLIST_FILE = "PersonaTests/PersonaTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		ADEA5E6F199B90AE0081EADD /* Build configuration list for PBXProject "Persona" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ADEA5EA4199B90AE0081EADD /* Debug */,
+				ADEA5EA5199B90AE0081EADD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ADEA5EA6199B90AE0081EADD /* Build configuration list for PBXNativeTarget "Persona" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ADEA5EA7199B90AE0081EADD /* Debug */,
+				ADEA5EA8199B90AE0081EADD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		ADEA5EA9199B90AE0081EADD /* Build configuration list for PBXNativeTarget "PersonaTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ADEA5EAA199B90AE0081EADD /* Debug */,
+				ADEA5EAB199B90AE0081EADD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = ADEA5E6C199B90AE0081EADD /* Project object */;
+}

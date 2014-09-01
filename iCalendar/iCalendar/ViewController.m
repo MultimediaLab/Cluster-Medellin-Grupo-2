@@ -32,7 +32,7 @@
     
     [self addChildViewController:_page];
     [self.view addSubview:_page.view];
-    
+        
 }
 
 - (void)didReceiveMemoryWarning

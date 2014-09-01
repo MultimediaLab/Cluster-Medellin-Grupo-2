@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>AD4F1A6F-01AD-46A1-B95B-8F86ACA25635</string>
+	<key>IDESourceControlProjectName</key>
+	<string>SqlLite</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>B00E8BA4-4575-4DCD-9433-10BEBC6E93B3</key>
+		<string>https://github.com/MultimediaLab/Cluster-Medellin-Grupo-2.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>SqlLite/SqlLite.xcodeproj/project.xcworkspace</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>B00E8BA4-4575-4DCD-9433-10BEBC6E93B3</key>
+		<string>../../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/MultimediaLab/Cluster-Medellin-Grupo-2.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>110</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>B00E8BA4-4575-4DCD-9433-10BEBC6E93B3</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>B00E8BA4-4575-4DCD-9433-10BEBC6E93B3</string>
+			<key>IDESourceControlWCCName</key>
+			<string>Cluster-Medellin-Grupo-2</string>
+		</dict>
+	</array>
+</dict>
+</plist>

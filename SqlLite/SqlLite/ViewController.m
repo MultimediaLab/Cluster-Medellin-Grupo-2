@@ -124,8 +124,41 @@
 }
 
 - (IBAction)updateData:(id)sender {
+    sqlite3_stmt * statement;
+    const char * db = [databasePath UTF8String];
+    if (sqlite3_open(db,&contactDB)==SQLITE_OK){
+
+        NSString * update = [[NSString alloc] initWithFormat:@"UPDATE CONTACTS SET EMP_NO = \"%@\", EMP_NAME = \"%@\", EMP_AGE = \"%@\", EMP_ADRESS = \"%@\" WHERE EMP_NO = \"%@\"",self.empNoTxt.text,self.empNameTxt.text,self.empAgeTxt.text,self.empAdressTxt.text,self.empNoTxt.text];
+        const char * update_sql = [update UTF8String];
+        
+        sqlite3_prepare_v2(contactDB,update_sql,-1,&statement,NULL);
+        if (sqlite3_step(statement)==SQLITE_DONE) {
+            _status.text = @"Registro Actualizado con Exito!!";
+        } else {
+            _status.text = @"Error al actualizar registro";
+        }
+    }
+
 }
 
 - (IBAction)deleteData:(id)sender {
+    sqlite3_stmt * statement;
+    const char * db = [databasePath UTF8String];
+    if (sqlite3_open(db,&contactDB)==SQLITE_OK){
+        NSString * delete = [[NSString alloc] initWithFormat:@"DELETE FROM CONTACTS WHERE EMP_NO = \"%@\"",self.empNoTxt.text];
+        const char * delete_sql = [delete UTF8String];
+        
+        sqlite3_prepare_v2(contactDB,delete_sql,-1,&statement,NULL);
+        if (sqlite3_step(statement)==SQLITE_DONE) {
+            _status.text = @"Registro Eliminado con Exito!!";
+            _empNoTxt.text = @"";
+            _empNameTxt.text = @"";
+            _empAgeTxt.text = @"";
+            _empAdressTxt.text = @"";
+            
+        } else {
+            _status.text = @"Error al eliminar registro";
+        }
+    }
 }
 @end

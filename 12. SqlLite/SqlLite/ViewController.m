@@ -128,7 +128,7 @@
     const char * db = [databasePath UTF8String];
     if (sqlite3_open(db,&contactDB)==SQLITE_OK){
 
-        NSString * update = [[NSString alloc] initWithFormat:@"UPDATE CONTACTS SET EMP_NO = \"%@\", EMP_NAME = \"%@\", EMP_AGE = \"%@\", EMP_ADRESS = \"%@\" WHERE EMP_NO = \"%@\"",self.empNoTxt.text,self.empNameTxt.text,self.empAgeTxt.text,self.empAdressTxt.text,self.empNoTxt.text];
+        NSString * update = [[NSString alloc] initWithFormat:@"UPDATE CONTACTS SET EMP_NO = \"%@\", EMP_NAME = \"%@\", EMP_AGE = \"%@\", EMP_ADRESSS = \"%@\" WHERE EMP_NO = \"%@\"",self.empNoTxt.text,self.empNameTxt.text,self.empAgeTxt.text,self.empAdressTxt.text,self.empNoTxt.text];
         const char * update_sql = [update UTF8String];
         
         sqlite3_prepare_v2(contactDB,update_sql,-1,&statement,NULL);

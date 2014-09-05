@@ -27,8 +27,7 @@
     _worldView.delegate = self;
     [_worldView setShowsUserLocation:YES];
     
-    MapPoint * puntoIni = [[MapPoint alloc] init];
-    [_worldView addAnnotation:puntoIni];
+    [self findLocation];
     
     [locationManager stopUpdatingLocation];
 }
@@ -73,6 +72,8 @@
     }
 }
 -(void)findLocation{
+    MapPoint * puntoIni = [[MapPoint alloc] init];
+    [_worldView addAnnotation:puntoIni];
 }
 -(void)findLocation:(CLLocation *)loc{
     CLLocationCoordinate2D cood = [loc coordinate];

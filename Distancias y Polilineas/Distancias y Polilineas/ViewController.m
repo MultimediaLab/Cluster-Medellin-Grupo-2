@@ -20,6 +20,16 @@
 	// Politecnico : 6.209659,-75.577521
     // Mi Casa: 6.217584,-75.5685735
     // Punto Medio: 6.2135973,-75.5728505
+    
+    _mapView.delegate = self;
+    CLLocation * poli = [[CLLocation alloc] initWithLatitude:6.209659 longitude:-75.577521];
+    MapPoint * poliPoint = [[MapPoint alloc] initWithCoordinate:[poli coordinate] title:@"Politecnico"];
+    
+    CLLocation * casa = [[CLLocation alloc] initWithLatitude:6.217584 longitude:-75.5685735];
+    MapPoint * casaPoint = [[MapPoint alloc] initWithCoordinate:[casa coordinate] title:@"Mi casa"];
+    
+    [_mapView addAnnotations:[NSArray arrayWithObjects:poliPoint, casaPoint, nil]];
+    
 }
 
 - (void)didReceiveMemoryWarning

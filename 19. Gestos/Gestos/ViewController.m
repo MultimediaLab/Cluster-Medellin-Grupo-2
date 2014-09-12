@@ -55,6 +55,7 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     _jeje = [self loadAudio:@"hehehe1"];
+    _chomp = [self loadAudio:@"chomp"];
     UITapGestureRecognizer * tapGesture = [[UITapGestureRecognizer alloc] initWithTarget:self action:@selector(handleTap:)];
     tapGesture.delegate = self;
     [self.view addGestureRecognizer:tapGesture];
@@ -65,6 +66,11 @@
     CGPoint translation = [sender translationInView:self.view];
     pan.view.center = CGPointMake(pan.view.center.x + translation.x, pan.view.center.y + translation.y);
     [pan setTranslation:CGPointMake(0, 0) inView:self.view];
+    if (pan.view.center.x > _mico.frame.origin.x && pan.view.center.y > _mico.frame.origin.y) {
+        [pan.view removeFromSuperview];
+        [_chomp play];
+    }
+    
 }
 
 

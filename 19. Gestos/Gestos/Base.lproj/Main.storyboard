@@ -14,7 +14,7 @@
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <subviews>
                             <imageView contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="monkey_1.png" id="f2p-Co-Sna">
-                                <rect key="frame" x="90" y="200" width="140" height="168"/>
+                                <rect key="frame" x="90" y="319" width="140" height="168"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
                         </subviews>
@@ -23,6 +23,7 @@
                         <connections>
                             <outletCollection property="gestureRecognizers" destination="7aa-FV-9VN" appends="YES" id="j5n-ab-d6d"/>
                             <outletCollection property="gestureRecognizers" destination="BCO-Fs-vO2" appends="YES" id="Xi3-VH-yN7"/>
+                            <outletCollection property="gestureRecognizers" destination="3VZ-0k-a7a" appends="YES" id="WHF-o5-LdE"/>
                         </connections>
                     </view>
                     <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina4"/>
@@ -30,6 +31,7 @@
                         <outlet property="mico" destination="f2p-Co-Sna" id="K8s-q5-fUl"/>
                         <outlet property="panGesture" destination="7aa-FV-9VN" id="bWi-UZ-0eV"/>
                         <outlet property="pinchGesture" destination="BCO-Fs-vO2" id="tai-DZ-pUt"/>
+                        <outlet property="rotationGesture" destination="3VZ-0k-a7a" id="cto-2e-iFy"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="x5A-6p-PRh" sceneMemberID="firstResponder"/>
@@ -43,6 +45,11 @@
                         <action selector="handlePinch:" destination="vXZ-lx-hvc" id="9Iq-hT-uOG"/>
                     </connections>
                 </pinchGestureRecognizer>
+                <rotationGestureRecognizer id="3VZ-0k-a7a">
+                    <connections>
+                        <action selector="handleRotation:" destination="vXZ-lx-hvc" id="WCP-Yt-5Nr"/>
+                    </connections>
+                </rotationGestureRecognizer>
             </objects>
             <point key="canvasLocation" x="74.133333333333326" y="128.74666666666667"/>
         </scene>

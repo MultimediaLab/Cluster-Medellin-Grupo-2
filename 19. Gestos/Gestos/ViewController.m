@@ -34,15 +34,23 @@
     monkeyView.frame = CGRectMake(0, 0, 175, 130);
     [monkeyView addGestureRecognizer:_panGesture];
     [monkeyView addGestureRecognizer:_pinchGesture];
+    [monkeyView addGestureRecognizer:_rotationGesture];
     [self.view addSubview:monkeyView];
     
-    NSLog(@"%@", self.view.subviews);
 }
+- (IBAction)handleRotation:(UIRotationGestureRecognizer *)sender {
+    
+    sender.view.transform = CGAffineTransformRotate(sender.view.transform, sender.rotation);
+    sender.rotation=0;
+}
+
 - (IBAction)handlePinch:(id)sender {
     UIPinchGestureRecognizer * pinch = sender;
     pinch.view.transform = CGAffineTransformScale(pinch.view.transform, pinch.scale, pinch.scale);
     pinch.scale = 1;
 }
+
+
 
 - (void)viewDidLoad {
     [super viewDidLoad];

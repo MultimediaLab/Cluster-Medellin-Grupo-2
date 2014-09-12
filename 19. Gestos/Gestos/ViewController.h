@@ -18,9 +18,11 @@
 
 @property (strong, nonatomic) IBOutlet UIPanGestureRecognizer *panGesture;
 @property (strong, nonatomic) IBOutlet UIPinchGestureRecognizer *pinchGesture;
+@property (strong, nonatomic) IBOutlet UIRotationGestureRecognizer *rotationGesture;
 
 - (IBAction)handlePan:(id)sender;
 - (IBAction)handlePinch:(id)sender;
+- (IBAction)handleRotation:(UIRotationGestureRecognizer *)sender;
 
 
 @end
